@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-size: 17px;
+    background: rgb(235, 234, 230);
+    font-family: $font
+}
+
+.main {
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.not-found {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

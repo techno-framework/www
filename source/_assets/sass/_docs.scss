@@ -1,0 +1,16 @@
+.docs {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  &__content {
+    text-align: justify;
+  }
+
+  &__line {
+    background: black;
+    width: 2px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+}

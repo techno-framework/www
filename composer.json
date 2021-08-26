@@ -1,0 +1,18 @@
+{
+    "name": "techno/www",
+    "description": "Official Techno Framework Website",
+    "type": "project",
+    "license": "unlicense",
+    "require": {
+        "tightenco/jigsaw": "^1.3",
+        "samdark/sitemap": "^2.2.1"
+    },
+    "scripts": {
+        "build": "./vendor/bin/jigsaw build"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
