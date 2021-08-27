@@ -14,3 +14,13 @@
     margin-bottom: 50px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .docs {
+    display: block;
+
+    &__line {
+      display: none;
+    }
+  }
+}

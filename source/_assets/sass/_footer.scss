@@ -26,3 +26,32 @@
     background-size: cover;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+
+    &__left {
+      order: 2;
+      width: 100%;
+      padding: 25px 0;
+      border: none;
+      text-align: center;
+      display: flex;
+    }
+
+    &__copyright {
+      display: block;
+      margin-top: 50px;
+    }
+
+    &__right {
+      order: 1;
+      width: 100%;
+      border-left: none;
+      height: 50px;
+      border-bottom: 2px solid black;
+    }
+  }
+}
